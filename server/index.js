@@ -26,7 +26,7 @@ const connectDB = (url) => {
 app.use(cors({
     origin: process.env.ORIGIN,
     credentials: true,
-    // allowedMethods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
+    allowedMethods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
   }
 ))
 app.use(cookieParser())
