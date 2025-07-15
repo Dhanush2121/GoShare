@@ -6,7 +6,7 @@ ShareRide is a full-stack ride-sharing application built with the **MERN stack**
 
 ## 🌐 Live Demo
 
-🚀 Coming Soon (Will be hosted on Vercel + Render)
+🚀 LIVE Demo: https://mern-rideshare.netlify.app
 
 ---
 
