@@ -32,12 +32,6 @@ ShareRide is a full-stack ride-sharing application built with the **MERN stack**
 - Render (Backend Hosting)  
 - Postman (for API Testing)
 
----
-
-## 📸 Screenshots
-
-> Add screenshots of your UI here once available  
-(Example: Login page, Ride feed, Create Ride form, etc.)
 
 ---
 
