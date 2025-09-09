@@ -23,22 +23,24 @@ const connectDB = (url) => {
 };
 
 //middlewares
+// In your server/index.js file
+
 const allowedOrigins = [
-  'https://share-ride-seven.vercel.app', 
-  'http://localhost:5173',
-  'https://share-ride-git-main-dhanush-javvadhis-projects.vercel.app/'// Add this line
+  'http://localhost:5173',
+  'https://share-ride-git-main-dhanush-javvadhis-projects.vercel.app', 
+  'https://share-ride-f99y3a2rs-dhanush-javvadhis-projects.vercel.app' 
 ];
 
 app.use(cors({
-    origin: (origin, callback) => {
-        if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
-    credentials: true,
-    allowedMethods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
+    origin: (origin, callback) => {
+        if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    credentials: true,
+    allowedMethods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
 }))
 
 app.use(cookieParser())
