@@ -48,7 +48,7 @@ const PublishCard = () => {
         "endTime": data.endTime,
         "price": data.price
       }
-      await axios.post(`${apiUri}/rides`, body, {withCredentials: true});
+      await axios.post(`${apiUri}/api/rides`, body, {withCredentials: true});
       toast("The ride has been Created")
       form.reset()
     } catch (error) {
