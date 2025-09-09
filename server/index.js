@@ -26,7 +26,7 @@ const connectDB = (url) => {
 const allowedOrigins = [
   'https://share-ride-seven.vercel.app', 
   'http://localhost:5173',
-  'https://share-ride-git-main-dhanush-javvadhis-projects.vercel.app' // <-- Add this line
+  'https://share-ride-daigp0rqb-dhanush-javvadhis-projects.vercel.app' // Add this line
 ];
 
 app.use(cors({
