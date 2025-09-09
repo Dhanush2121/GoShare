@@ -23,12 +23,23 @@ const connectDB = (url) => {
 };
 
 //middlewares
+const allowedOrigins = [
+  'https://share-ride-seven.vercel.app', 
+  'http://localhost:5173' 
+];
+
 app.use(cors({
-    origin: process.env.ORIGIN,
+    origin: (origin, callback) => {
+        if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
     credentials: true,
     allowedMethods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']
-  }
-))
+}))
+
 app.use(cookieParser())
 app.use(express.json())
 
