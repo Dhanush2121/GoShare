@@ -17,7 +17,7 @@ const LoginSignupDialog = () => {
     event.preventDefault();
     dispatch({ type: 'LOGIN_START' });
     try {
-      const res = await api.post("/api/auth/login", loginData);
+      const res = await api.post("/auth/login", loginData);
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
       setLoginData({ email: "", password: "" });
     } catch (err) {
@@ -29,7 +29,7 @@ const LoginSignupDialog = () => {
     event.preventDefault();
     dispatch({ type: 'LOGIN_START' });
     try {
-      const res = await api.post("/api/auth/register", signupData);
+      const res = await api.post("/auth/register", signupData);
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
       setSignupData({ name: "", email: "", password: "" });
     } catch (err) {
