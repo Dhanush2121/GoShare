@@ -1,12 +1,12 @@
-🚗 ShareRide - MERN Stack Ride Sharing Platform
+🚗 GoShare - MERN Stack Ride Sharing Platform
 
-ShareRide is a full-stack ride-sharing application built with the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It allows users to register, log in, search for rides, post rides, and connect with other travelers going the same way. It is designed to make carpooling easy, efficient, and eco-friendly.
+GoShare is a full-stack ride-sharing application built with the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It allows users to register, log in, search for rides, post rides, and connect with other travelers going the same way. It is designed to make carpooling easy, efficient, and eco-friendly.
 
 ---
 
 ## 🌐 Live Demo
 
-🚀 LIVE Demo: https://mern-rideshare.netlify.app
+🚀 LIVE Demo: https://share-ride-git-main-dhanush-javvadhis-projects.vercel.app/
 
 ---
 
