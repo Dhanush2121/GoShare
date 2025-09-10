@@ -6,7 +6,7 @@ GoShare is a full-stack ride-sharing application built with the **MERN stack** (
 
 ## 🌐 Live Demo
 
-🚀 LIVE Demo: https://share-ride-git-main-dhanush-javvadhis-projects.vercel.app/
+🚀 LIVE Demo: https://share-ride-seven.vercel.app/
 
 [GoShare API Documentation](https://documenter.getpostman.com/view/32434659/2s9YymFjCa#e3c94f2d-c0eb-424a-982c-fc94fef0d286)
 
